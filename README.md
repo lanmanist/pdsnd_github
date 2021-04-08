@@ -4,10 +4,10 @@
 THe project was created on April 1st, 2021
 
 ### Project Title
-Bikeshare insights
+Bikeshare insights with Python
 
 ### Description
-The project seeks to explore customer insights into the bike sharing service in the 3 cities of New York, Washington, and Chicago
+The project seeks to explore customer insights into the bike sharing service in the 3 cities of New York, Washington, and Chicago from January to June
 
 ### Files used
 bikeshare.py
