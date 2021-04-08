@@ -1,4 +1,4 @@
-import time 
+import time
 import pandas as pd
 import numpy as np
 
@@ -201,6 +201,7 @@ def display_data(df):
     view_data = input('Do you want to see 5 rows of data? (Answer yes / no): \n').lower()
     valid_answers = ['yes', 'no']
 
+    # loop until a valid answer is given
     while view_data not in valid_answers:
         view_data = input('Do you want to see 5 rows of data? (Answer yes / no): \n').lower()
 
