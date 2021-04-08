@@ -33,7 +33,7 @@ def get_filters():
         months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
         month = input('Enter month: ').lower()
         while month not in months:
-            month = input('Invalid month. Please enter again: ').lower()
+            month = input('Invalid month. Available months are: january, february, etc. Please enter again: ').lower()
         day = 'all'
     elif answer == 'day':
     # get user input for day of week (all, monday, tuesday, ... sunday)
